@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Settings | Savana Shoe Store</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="CSS/SettingPage.css" />
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+</head>
+<body>
+    <div id="header1"></div>
+
+    <div id="navigation">
+        <nav>
+            <ul>
+                <li>
+                    <a class="savana"><img src="Images/Savana (2).png" width="120" height="40" /></a>
+                </li>
+                <li>
+                    <a href="FirstPage.html" class="normal"><img src="Images/home.png" width="35" height="35" /></a>
+                </li>
+                <li>
+                    <a href="About page.html" class="normal"><img src="Images/I-con.png" width="33" height="33" /></a>
+                </li>
+                <li>
+                    <a title="Support" href="Contact.html" class="normal"><img src="Images/Phonesymbol.png" width="33" height="33" /></a>
+                </li>
+                <li>
+                    <a title="Instagram" class="normal" href="https://www.instagram.com/savanashoestoressss/?hl=en"><img src="Images/instagram-outline.png" width="33" height="33" /></a>
+                </li>
+                <li>
+                    <a title="Shopping Cart" class="normal" href="#"><img src="Images/Shopping.png" width="33" height="33" /></a>
+                </li>
+                <li>
+                    <a title="Account" class="normal" href="Login page.html"><img src="Images/Acc.png" width="33" height="33" /></a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div id="Main content">
+        <div id="BarOne">
+            <div>
+                <h1 style="margin-left:20px;">Settings</h1>
+                <ul class="navbar" style="margin-top:150px;">
+                    <li><a href="SettingPage.html">Update Profile</a></li>
+                    <li><a href="ChangePW.html">Change Password</a></li>
+                    <li><a href="PaymentPage.html">Payment Preferences</a></li>
+                </ul>
+            </div>
+            <div class="container" style="margin-top:20px;">
+                <div class="settings">
+                    <h2>Updating  your profile</h2>
+
+                    <h4>User details</h4>
+
+                    <form action="Settings.css">
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="name" name="name" />
+                        <br><br />
+
+                        <label for="Username">Username:</label><br>
+                        <input type="text" id="Username" name="Username">
+
+                        <h4>Private information</h4>
+                        <label for="Email"> E-mail:</label><br>
+                        <input type="text" id="Email" name="Email" /><br>
+
+                        <label for="phoneNumber">Phone Number:</label><br>
+                        <input type="text" id="phoneNumber" name="phoneNumber" />
+
+                        <br /><br />
+                        <input type="submit" id="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="header2">
+        <form id="subscribe">
+            <input type="text" name="email" placeholder="Subscribe... and you shall find" class="Subscribe" />
+            <img src="Images/mail.png" width="30" height="30" style="margin-bottom:-7px;" />
+            <input type="submit" value="Subscribe" id="Subscribe" />
+        </form>
+    </div>
+    <div id="header3">
+        <div id="Logo">
+            <img src="Images/Savana (3).png" witdh="130" height="130" />
+        </div>
+        <div id="Copyrights">
+            <p>All Rights Reserved &copy; Savana Official 2016</p>
+        </div>
+        <div id="FacebookAndInstagram">
+            <ul>
+                <li class="bottom"><a href="https://www.facebook.com/SavanaShoeStoreSS/?skip_nax_wizard=true"><img src="Images/facebook new.png" width="40" height="40" /></a></li>
+                <li class="bottom"><a href="https://www.instagram.com/savanashoestoressss/?hl=en"><img src="Images/instagram-outline.png" width="40" height="40" /></a></li>
+            </ul>
+        </div>
+        <div id="scrolltotop">
+            <a href="#" class="back-to-top">Back to top</a>
+        </div>
+    </div>
+    <script type="text/javascript">
+                $('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+
+                $(window).scroll(function(){
+                    if($(window).scrollTop() > 100){
+                        $('a.back-to-top').fadeIn('fast');
+                    } else {
+                        $('a.back-to-top').fadeOut('slow');
+                    }
+                })
+                $('a.back-to-top').click(function () {
+                    $('body').animate({
+                        scrollTop: 0
+                    }, 1000);
+
+                    return false;
+                })
+    </script>
+</body>
+</html>

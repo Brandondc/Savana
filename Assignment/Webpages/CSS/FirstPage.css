@@ -1,0 +1,168 @@
+﻿/*Page Stuff*/
+
+body {font-family: 'Open Sans', sans-serif;
+      font-size: 16px; 
+      font-weight: 300; 
+      color: #555; 
+      margin: 0; 
+      padding: 0;
+      background-color:white;
+}
+
+#page {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}                                      
+
+/*Header*/
+
+#header1 {
+    background-color: #455A64;
+    padding: 40px;
+}
+#header2 {
+    background-color:#80CBC4;
+    padding:20px 100px;
+}
+#header3 {
+    background-color: #455A64;
+    padding: 75px 50px;
+    margin-top:0px;
+}
+
+/*Navigation*/
+
+nav {
+    position: absolute;
+    top: 20px; left: 0px;
+    padding: 15px 0 0 0;
+    width: 100%;
+    background-color:#80CBC4;
+}
+
+nav ul {list-style: none; margin: 0; padding: 0px;}
+
+nav::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+nav ul li a{
+    display:inline-block;
+    color:black;
+    padding: 20px 10px;
+    text-decoration:none;
+    width:125px;
+    position: relative;
+}
+
+
+nav ul li a.savana:hover {
+    background-color:none;
+}
+nav ul li a.normal:hover {
+    background-color:#26A69A;
+}
+
+nav > ul > li {float:left;
+    }
+
+nav > ul > li > a {
+            width: auto;
+            padding: 10px 20px 10px 20px;
+        }
+
+nav li {
+    border-right: 2px solid black;
+}
+
+/*Subscribe email*/
+
+input[type=text].Subscribe{
+    width :50%;
+    height:20px;
+    font-size:20px;
+    margin-left: 350px;
+    background-color:#80CBC4;
+    border:0;
+    border-style:solid;
+    border-bottom:solid;
+    border-bottom-color:black;
+    color:black;
+}
+*::-webkit-input-placeholder{
+    color:black !important;
+}
+
+#Subscribe{
+    font-size:20px;
+    background-color:#80CBC4;
+    border:0;
+    border-style:solid;
+    color:black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#Subscribe:hover{
+    color:white;
+}
+/*Bottom Bar*/
+#Logo {
+    margin-left:10px;
+    margin-top:-60px;
+}
+
+#Copyrights {
+    color:white;
+    margin-top:-27px;
+    margin-left:-12px;
+}
+/*Facebook and instagram*/
+#FacebookAndInstagram {
+    margin-left:25px;
+}
+
+li.bottom {
+    display:inline;
+    margin-left:15px;
+}
+/*Back to top button*/
+a.back-to-top {
+    display:none;
+    width:60px;
+    height:60px;
+    position:fixed;
+    bottom:40px;
+    right:40px;
+    background: green url(../Images/EF21B293F14B42D2B8F3D752BBE67C78.png) no-repeat center 43%;
+    text-indent: -9999px;
+    border-radius: 30px;
+}
+
+a:hover.back-to-top {
+    background-color: #000;
+}
+/*Navigation bar*/
+
+
+/*Login */
+
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200);
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 200;
+}
+
+h1 .shopNow{
+    margin:-20px -20px 21px;
+    line-height:45px;
+    font-size:30px;
+    font-weight:lighter;
+    color:black;
+    text-align:center;
+    border-radius:3px 3px 0 0;
+}

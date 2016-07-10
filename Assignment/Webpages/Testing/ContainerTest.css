@@ -1,0 +1,10 @@
+﻿.myBackground {
+  background-color: rgba(255,255,255, 0.5);
+  color: inherit;
+  padding: 50px;
+  border-radius: 7px;
+}
+
+body{
+    background-image: url('../Images/WALLPAPER 3.jpg')
+}

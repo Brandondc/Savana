@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page | Savana Shoe Store</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="CSS/login.css" />
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+</head>
+<body>
+    <div id="header1"></div>
+    <div id="navigation">
+        <nav>
+            <ul>
+                <li>
+                    <a class="savana"><img src="Images/Savana (2).png" width="120" height="40" /></a>
+                </li>
+                <li>
+                    <a href="FirstPage.html" class="normal"><img src="Images/home.png" width="35" height="35" /></a>
+                </li>
+                <li>
+                    <a href="About page.html" class="normal"><img src="Images/I-con.png" width="33" height="33" /></a>
+                </li>
+                <li>
+                    <a title="Support" href="Contact.html" class="normal"><img src="Images/Phonesymbol.png" width="33" height="33" /></a>
+                </li>
+                <li>
+                    <a title="Instagram" class="normal" href="https://www.instagram.com/savanashoestoressss/?hl=en"><img src="Images/instagram-outline.png" width="33" height="33" /></a>
+                </li>
+                <li>
+                    <a title="Shopping Cart" class="normal" href="#"><img src="Images/Shopping.png" width="33" height="33" /></a>
+                </li>
+                <li>
+                    <a title="Account" class="normal" href="Login page.html"><img src="Images/Acc.png" width="33" height="33" /></a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div id="Main content">
+        <div id="BarOne">
+            <img src="Images/WALLPAPER 1.jpg"/>
+            <div class="login" style="position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);">
+                <h1>Login</h1>
+                <form method="post" action="Catalog.html">
+                    <p><input type="text" name="login" value="" placeholder="Username or Email:" /></p>
+                    <p><input type="password" name="password" value="" placeholder="Password:" /></p>
+                    <p class="Remember_me">
+                        <label>
+                            <label>
+                                <input type="checkbox" name="Remember_me" id="Remember_me" />
+                                <span style="color:white;">Remember me?</span>
+                            </label>
+                        </label>
+                    </p>
+                    <p class="submit"><input type="submit" name="commit" value="Login" /></p>
+                </form>
+                <div class="login-register">
+                    <p class="Register" style="color:white;">Not registered? Join us by creating an account <span><a href="RegisterPage.html" style="color:darkslateblue">here</a></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="header2">
+        <form id="subscribe">
+            <input type="text" name="email" placeholder="Subscribe... and you shall find" class="Subscribe" />
+            <img src="Images/mail.png" width="30" height="30" style="margin-bottom:-7px;" />
+            <input type="submit" value="Subscribe" id="Subscribe" />
+        </form>
+    </div>
+    <div id="header3">
+        <div id="Logo">
+            <img src="Images/Savana (3).png" witdh="130" height="130" />
+        </div>
+        <div id="Copyrights">
+            <p>All Rights Reserved &copy; Savana Official 2016</p>
+        </div>
+        <div id="FacebookAndInstagram">
+            <ul>
+                <li class="bottom"><a href="https://www.facebook.com/SavanaShoeStoreSS/?skip_nax_wizard=true"><img src="Images/facebook new.png" width="40" height="40" /></a></li>
+                <li class="bottom"><a href="https://www.instagram.com/savanashoestoressss/?hl=en"><img src="Images/instagram-outline.png" width="40" height="40" /></a></li>
+            </ul>
+        </div>
+        <div id="scrolltotop">
+            <a href="#" class="back-to-top">Back to top</a>
+        </div>
+    </div>
+    <script type="text/javascript">
+                $('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+
+                $(window).scroll(function(){
+                    if($(window).scrollTop() > 100){
+                        $('a.back-to-top').fadeIn('fast');
+                    } else {
+                        $('a.back-to-top').fadeOut('slow');
+                    }
+                })
+                $('a.back-to-top').click(function () {
+                    $('body').animate({
+                        scrollTop: 0
+                    }, 1000);
+
+                    return false;
+                })
+    </script>
+</body>
+</html>

@@ -1,0 +1,505 @@
+﻿<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Work+Sans:400,600,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../ShoeCSS/reset.css"> <!-- CSS reset -->
+    <link rel="stylesheet" type="text/css" href="../ShoeCSS/style.css" /> <!-- Resource style -->
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="../Javascripts/modernizr.js"></script> <!-- Modernizr -->
+    <style>
+        /*Page Stuff*/
+
+body {font-family: 'Open Sans', sans-serif;
+      font-size: 16px; 
+      font-weight: 300; 
+      color: #555; 
+      margin: 0; 
+      padding: 0;
+      background-color:white;
+}
+
+#page {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}                                      
+
+/*Header*/
+
+#header1 {
+    background-color: #455A64;
+    padding: 40px;
+}
+#header2 {
+    background-color:#80CBC4;
+    padding:20px 100px;
+}
+#header3 {
+    background-color: #455A64;
+    padding: 75px 50px;
+    margin-top:0px;
+}
+
+/*Navigation*/
+
+nav {
+    position: absolute;
+    top: 20px; left: 0px;
+    padding: 15px 0 0 0;
+    width: 100%;
+    background-color:#80CBC4;
+}
+
+nav ul {list-style: none; margin: 0; padding: 0px;}
+
+nav::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+nav ul li a{
+    display:inline-block;
+    color:black;
+    padding: 20px 10px;
+    text-decoration:none;
+    width:125px;
+    position: relative;
+}
+
+
+nav ul li a.savana:hover {
+    background-color:none;
+}
+nav ul li a.normal:hover {
+    background-color:#26A69A;
+}
+
+nav > ul > li {float:left;
+    }
+
+nav > ul > li > a {
+            width: auto;
+            padding: 10px 20px 10px 20px;
+        }
+
+nav li {
+    border-right: 2px solid black;
+}
+
+/*Subscribe email*/
+
+input[type=text].Subscribe{
+    width :50%;
+    height:20px;
+    font-size:20px;
+    margin-left: 350px;
+    background-color:#80CBC4;
+    border:0;
+    border-style:solid;
+    border-bottom:solid;
+    border-bottom-color:black;
+    color:black;
+}
+*::-webkit-input-placeholder{
+    color:black !important;
+}
+
+#Subscribe{
+    font-size:20px;
+    background-color:#80CBC4;
+    border:0;
+    border-style:solid;
+    color:black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#Subscribe:hover{
+    color:white;
+}
+/*Bottom Bar*/
+#Logo {
+    margin-left:10px;
+    margin-top:-60px;
+}
+
+#Copyrights {
+    color:white;
+    margin-top:-10px;
+    margin-left:-12px;
+}
+/*Facebook and instagram*/
+#FacebookAndInstagram {
+    margin-left:75px;
+    margin-top:10px;
+}
+
+li.bottom {
+    display:inline;
+    margin-left:15px;
+}
+/*Back to top button*/
+a.back-to-top {
+    display:none;
+    width:60px;
+    height:60px;
+    position:fixed;
+    bottom:40px;
+    right:40px;
+    background: green url(../Images/EF21B293F14B42D2B8F3D752BBE67C78.png) no-repeat center 43%;
+    text-indent: -9999px;
+    border-radius: 30px;
+}
+
+a:hover.back-to-top {
+    background-color: #000;
+}
+/*Navigation bar*/
+    </style>
+    <title>Business Shoes | Savana Shoe Store</title>
+</head>
+<body>
+    <div id="header1"></div>
+    <div id="navigation">
+        <nav>
+            <ul>
+                <li>
+                    <a class="savana"><img src="../Images/Savana (2).png" width="120" height="40" /></a>
+                </li>
+                <li>
+                    <a href="../FirstPage.html" class="normal"><img src="../Images/home.png" width="35" height="35" /></a>
+                </li>
+                <li>
+                    <a href="../About page.html" class="normal"><img src="../Images/I-con.png" width="33" height="33" /></a>
+                </li>
+                <li>
+                    <a title="Support" href="../Contact.html" class="normal"><img src="../Images/Phonesymbol.png" width="33" height="33" /></a>
+                </li>
+                <li>
+                    <a title="Instagram" class="normal" href="https://www.instagram.com/savanashoestoressss/?hl=en"><img src="../Images/instagram-outline.png" width="33" height="33" /></a>
+                </li>
+                <li>
+                    <a title="Shopping Cart" class="normal" href="#"><img src="../Images/Shopping.png" width="33" height="33" /></a>
+                </li>
+                <li>
+                    <a title="Account" class="normal" href="../Login page.html"><img src="../Images/Acc.png" width="33" height="33" /></a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div id="Main content">
+        <div id="BarOne">
+            <header>
+                <h1>Business Shoes @ Savannah Shop</h1>
+            </header>
+
+            <div>
+
+                <ul class="navbar">
+                    <li><a href="index.html">Casual Shoes</a></li>
+                    <li><a href="Business.html">Business Shoes</a></li>
+                    <li><a href="Sandals.html">Sandals</a></li>
+                    <li><a href="Slippers.html">Slippers</a></li>
+                    <li><a href="Sneakers.html">Sneakers</a></li>
+                </ul>
+
+            </div>
+            <a href="#0" class="cd-cart">
+                <span>0</span>
+            </a>
+            <ul class="cd-gallery">
+                <li>
+                    <div class="cd-single-item">
+                        <a href="#0">
+                            <ul class="cd-slider-wrapper">
+
+                                <li class="selected"><img src="..//ShoeImages/Business Shoes 1.jpg" alt="Preview image"></li>
+
+                            </ul>
+                        </a>
+                        <div class="cd-customization">
+                            <div class="color selected-2" data-type="select">
+                                <ul>
+                                    <li class="color-1">color-1</li>
+                                    <li class="color-2 active">color-2</li>
+                                    <li class="color-3">color-3</li>
+                                </ul>
+                            </div>
+
+                            <div class="size" data-type="select">
+                                <ul>
+                                    <li class="small active">US 6</li>
+                                    <li class="medium"> US 7</li>
+                                    <li class="large"> US 8</li>
+                                    <li class="large">US 9</li>
+                                    <li class="large">US 10</li>
+                                </ul>
+                            </div>
+                            <button class="add-to-cart">
+                                <em>Add to Cart</em>
+                                <svg x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32">
+                                    <path stroke-dasharray="19.79 19.79" stroke-dashoffset="19.79" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" d="M9,17l3.9,3.9c0.1,0.1,0.2,0.1,0.3,0L23,11" />
+                                </svg>
+                            </button>
+                        </div> <!-- .cd-customization -->
+                        <button class="cd-customization-trigger">Customize</button>
+                    </div> <!-- .cd-single-item -->
+                    <div class="cd-item-info">
+                        <b><a href="#0">Red Leather Shoe With Studs</a></b>
+                        <em>$59.99</em>
+                    </div> <!-- cd-item-info -->
+                </li>
+                <li>
+                    <div class="cd-single-item">
+                        <a href="#0">
+                            <ul class="cd-slider-wrapper">
+                                <li class="selected"> <img src="../ShoeImages/Business Shoes 2.jpg" alt="Preview image"></li>
+
+                            </ul>
+                        </a>
+                        <div class="cd-customization">
+                            <div class="color" data-type="select">
+                                <ul>
+                                    <li class="color-1 active">color-1</li>
+                                    <li class="color-2">color-2</li>
+                                    <li class="color-3">color-3</li>
+                                </ul>
+                            </div>
+
+                            <div class="size" data-type="select">
+                                <ul>
+                                    <li class="small active">US 6</li>
+                                    <li class="medium"> US 7</li>
+                                    <li class="large"> US 8</li>
+                                    <li class="large">US 9</li>
+                                    <li class="large">US 10</li>
+                                </ul>
+                            </div>
+                            <button class="add-to-cart">
+                                <em>Add to Cart</em>
+                                <svg x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32">
+                                    <path stroke-dasharray="19.79 19.79" stroke-dashoffset="19.79" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" d="M9,17l3.9,3.9c0.1,0.1,0.2,0.1,0.3,0L23,11" />
+                                </svg>
+                            </button>
+                        </div> <!-- .cd-customization -->
+                        <button class="cd-customization-trigger">Customize</button>
+                    </div> <!-- .cd-single-item -->
+                    <div class="cd-item-info">
+                        <b><a href="#0">Crocs style leather shoe</a></b>
+                        <em>$59.99</em>
+                    </div> <!-- cd-item-info -->
+                </li>
+                <li>
+                    <div class="cd-single-item">
+                        <a href="#0">
+                            <ul class="cd-slider-wrapper">
+
+                                <li class="selected"> <img src="../ShoeImages/Business Shoes 3.jpg" alt="Preview image"></li>
+                            </ul>
+                        </a>
+                        <div class="cd-customization">
+                            <div class="color selected-3" data-type="select">
+                                <ul>
+                                    <li class="color-1">color-1</li>
+                                    <li class="color-2">color-2</li>
+                                    <li class="color-3 active">color-3</li>
+                                </ul>
+                            </div>
+
+                            <div class="size" data-type="select">
+                                <ul>
+                                    <li class="small active">US 6</li>
+                                    <li class="medium"> US 7</li>
+                                    <li class="large"> US 8</li>
+                                    <li class="large">US 9</li>
+                                    <li class="large">US 10</li>
+                                </ul>
+                            </div>
+                            <button class="add-to-cart">
+                                <em>Add to Cart</em>
+                                <svg x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32">
+                                    <path stroke-dasharray="19.79 19.79" stroke-dashoffset="19.79" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" d="M9,17l3.9,3.9c0.1,0.1,0.2,0.1,0.3,0L23,11" />
+                                </svg>
+                            </button>
+                        </div> <!-- .cd-customization -->
+                        <button class="cd-customization-trigger">Customize</button>
+                    </div> <!-- .cd-single-item -->
+                    <div class="cd-item-info">
+                        <b><a href="#0">Red Leather Shoe</a></b>
+                        <em>$89.99</em>
+                    </div> <!-- cd-item-info -->
+                </li>
+                <li>
+                    <div class="cd-single-item">
+                        <a href="#0">
+                            <ul class="cd-slider-wrapper">
+                                <li class="selected"><img src="../ShoeImages/Business Shoes 4.jpg" alt="Preview image"></li>
+
+                            </ul>
+                        </a>
+                        <div class="cd-customization">
+                            <div class="color" data-type="select">
+                                <ul>
+                                    <li class="color-1 active">color-1</li>
+                                    <li class="color-2">color-2</li>
+                                    <li class="color-3">color-3</li>
+                                </ul>
+                            </div>
+
+                            <div class="size" data-type="select">
+                                <ul>
+                                    <li class="small active">US 6</li>
+                                    <li class="medium"> US 7</li>
+                                    <li class="large"> US 8</li>
+                                    <li class="large">US 9</li>
+                                    <li class="large">US 10</li>
+                                </ul>
+                            </div>
+                            <button class="add-to-cart">
+                                <em>Add to Cart</em>
+                                <svg x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32">
+                                    <path stroke-dasharray="19.79 19.79" stroke-dashoffset="19.79" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" d="M9,17l3.9,3.9c0.1,0.1,0.2,0.1,0.3,0L23,11" />
+                                </svg>
+                            </button>
+                        </div> <!-- .cd-customization -->
+                        <button class="cd-customization-trigger">Customize</button>
+                    </div> <!-- .cd-single-item -->
+                    <div class="cd-item-info">
+                        <b><a href="#0">Light Brown Leather Shoe</a></b>
+                        <em>$79.99</em>
+                    </div> <!-- cd-item-info -->
+                </li>
+                <li>
+                    <div class="cd-single-item">
+                        <a href="#0">
+                            <ul class="cd-slider-wrapper">
+
+                                <li class="selected"> <img src="../ShoeImages/Business Shoes 5.jpg" alt="Preview image"></li>
+
+                            </ul>
+                        </a>
+                        <div class="cd-customization">
+                            <div class="color selected-2" data-type="select">
+                                <ul>
+                                    <li class="color-1">color-1</li>
+                                    <li class="color-2 active">color-2</li>
+                                    <li class="color-3">color-3</li>
+                                </ul>
+                            </div>
+
+                            <div class="size" data-type="select">
+                                <ul>
+                                    <li class="small active">US 6</li>
+                                    <li class="medium"> US 7</li>
+                                    <li class="large"> US 8</li>
+                                    <li class="larger">US 9</li>
+                                    <li class="largest">US 10</li>
+                                </ul>
+                            </div>
+                            <button class="add-to-cart">
+                                <em>Add to Cart</em>
+                                <svg x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32">
+                                    <path stroke-dasharray="19.79 19.79" stroke-dashoffset="19.79" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" d="M9,17l3.9,3.9c0.1,0.1,0.2,0.1,0.3,0L23,11" />
+                                </svg>
+                            </button>
+                        </div> <!-- .cd-customization -->
+                        <button class="cd-customization-trigger">Customize</button>
+                    </div> <!-- .cd-single-item -->
+                    <div class="cd-item-info">
+                        <b><a href="#0">Weaved Leather Shoe</a></b>
+                        <em>$39.99</em>
+                    </div> <!-- cd-item-info -->
+                </li>
+                <li>
+                    <div class="cd-single-item">
+                        <a href="#0">
+                            <ul class="cd-slider-wrapper">
+                                <li class="selected"> <img src="../ShoeImages/Business Shoes 6.jpg" alt="Preview image"></li>
+
+                            </ul>
+                        </a>
+                        <div class="cd-customization">
+                            <div class="color" data-type="select">
+                                <ul>
+                                    <li class="color-1 active">color-1</li>
+                                    <li class="color-2">color-2</li>
+                                    <li class="color-3">color-3</li>
+                                </ul>
+                            </div>
+
+                            <div class="size" data-type="select">
+                                <ul>
+                                    <li class="small active">US 6</li>
+                                    <li class="medium"> US 7</li>
+                                    <li class="large"> US 8</li>
+                                    <li class="large">US 9</li>
+                                    <li class="large">US 10</li>
+                                </ul>
+                            </div>
+                            <button class="add-to-cart">
+                                <em>Add to Cart</em>
+                                <svg x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32">
+                                    <path stroke-dasharray="19.79 19.79" stroke-dashoffset="19.79" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" d="M9,17l3.9,3.9c0.1,0.1,0.2,0.1,0.3,0L23,11" />
+                                </svg>
+                            </button>
+                        </div> <!-- .cd-customization -->
+                        <button class="cd-customization-trigger">Customize</button>
+                    </div> <!-- .cd-single-item -->
+                    <div class="cd-item-info">
+                        <b><a href="#0">Black Leather Shoe</a></b>
+                        <em>$89.99</em>
+                    </div> <!-- cd-item-info -->
+                </li>
+            </ul> <!-- cd-gallery -->
+            <script src="../Javascripts/jquery-2.1.4.js"></script>
+            <script src="../Javascripts/main.js"></script> <!-- Resource jQuery -->
+        </div>
+    </div>
+    <div id="header2">
+        <form id="subscribe">
+            <input type="text" name="email" placeholder="Subscribe... and you shall find" class="Subscribe" />
+            <img src="../Images/mail.png" width="30" height="30" style="margin-bottom:-7px;" />
+            <input type="submit" value="Subscribe" id="Subscribe" />
+        </form>
+    </div>
+    <div id="header3">
+        <div id="Logo">
+            <img src="../Images/Savana (3).png" witdh="130" height="130" />
+        </div>
+        <div id="Copyrights">
+            <p>All Rights Reserved &copy; Savana Official 2016</p>
+        </div>
+        <div id="FacebookAndInstagram">
+            <ul>
+                <li class="bottom"><a href="https://www.facebook.com/SavanaShoeStoreSS/?skip_nax_wizard=true"><img src="../Images/facebook new.png" width="40" height="40" /></a></li>
+                <li class="bottom"><a href="https://www.instagram.com/savanashoestoressss/?hl=en"><img src="../Images/instagram-outline.png" width="40" height="40" /></a></li>
+            </ul>
+        </div>
+        <div id="scrolltotop">
+            <a href="#" class="back-to-top">Back to top</a>
+        </div>
+    </div>
+    <script type="text/javascript">
+                $('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+
+                $(window).scroll(function(){
+                    if($(window).scrollTop() > 100){
+                        $('a.back-to-top').fadeIn('fast');
+                    } else {
+                        $('a.back-to-top').fadeOut('slow');
+                    }
+                })
+                $('a.back-to-top').click(function () {
+                    $('body').animate({
+                        scrollTop: 0
+                    }, 1000);
+
+                    return false;
+                })
+    </script>
+</body>
+</html>

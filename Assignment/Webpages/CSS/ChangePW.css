@@ -1,0 +1,248 @@
+﻿/*Page Stuff*/
+
+body {font-family: 'Open Sans', sans-serif;
+      font-size: 16px; 
+      font-weight: 300; 
+      color: #555; 
+      margin: 0; 
+      padding: 0;
+      background-color:white;
+}
+
+#page {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}                                      
+
+/*Header*/
+
+#header1 {
+    background-color: #455A64;
+    padding: 40px;
+}
+#header2 {
+    background-color:#80CBC4;
+    padding:20px 100px;
+}
+#header3 {
+    background-color: #455A64;
+    padding: 75px 50px;
+    margin-top:0px;
+}
+
+/*Navigation*/
+
+nav {
+    position: absolute;
+    top: 20px; left: 0px;
+    padding: 15px 0 0 0;
+    width: 100%;
+    background-color:#80CBC4;
+}
+
+nav ul {list-style: none; margin: 0; padding: 0px;}
+
+nav::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+nav ul li a{
+    display:inline-block;
+    color:black;
+    padding: 20px 10px;
+    text-decoration:none;
+    width:125px;
+    position: relative;
+}
+
+
+nav ul li a.savana:hover {
+    background-color:none;
+}
+nav ul li a.normal:hover {
+    background-color:#26A69A;
+}
+
+nav > ul > li {float:left;
+    }
+
+nav > ul > li > a {
+            width: auto;
+            padding: 10px 20px 10px 20px;
+        }
+
+nav li {
+    border-right: 2px solid black;
+}
+
+/*Subscribe email*/
+
+input[type=text].Subscribe{
+    width :50%;
+    height:20px;
+    font-size:20px;
+    margin-left: 350px;
+    background-color:#80CBC4;
+    border:0;
+    border-style:solid;
+    border-bottom:solid;
+    border-bottom-color:black;
+    color:black;
+}
+*::-webkit-input-placeholder{
+    color:black !important;
+}
+
+#Subscribe{
+    font-size:20px;
+    background-color:#80CBC4;
+    border:0;
+    border-style:solid;
+    color:black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#Subscribe:hover{
+    color:white;
+}
+/*Bottom Bar*/
+#Logo {
+    margin-left:10px;
+    margin-top:-60px;
+}
+
+#Copyrights {
+    color:white;
+    margin-top:-27px;
+    margin-left:-12px;
+}
+/*Facebook and instagram*/
+#FacebookAndInstagram {
+    margin-left:25px;
+}
+
+li.bottom {
+    display:inline;
+    margin-left:15px;
+}
+/*Back to top button*/
+a.back-to-top {
+    display:none;
+    width:60px;
+    height:60px;
+    position:fixed;
+    bottom:40px;
+    right:40px;
+    background: green url(../Images/EF21B293F14B42D2B8F3D752BBE67C78.png) no-repeat center 43%;
+    text-indent: -9999px;
+    border-radius: 30px;
+}
+
+a:hover.back-to-top {
+    background-color: #000;
+}
+/*Navigation bar*/
+
+/*Change Pw*/
+ul.navbar{
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    position:absolute;
+    top:2em;
+    left:1em;
+    width:9em;
+    margin-top:100px;
+}
+
+    ul.navbar li {
+        margin: 0.5em 0;
+        padding: 0.3em;
+        border-left:4px solid #80CBC4;
+        background:#455A64;
+        display:block;
+        font-size:16px;
+        color:azure;
+        height:100%;
+        line-height:20px;
+        padding:16px 16px 16px 30px;
+     
+    }
+    ul.navbar{
+        text-decoration:none;
+    }
+    a:link{
+        color:white;
+    }
+    a:visited{
+        color:wheat;
+    }
+    address {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted
+
+    }
+
+    #password, #newPassword , #reNewPassword{
+    margin:3px;
+    padding:0px 2px;
+    width:95%;
+    height:27px;
+    color:#404040;
+    background:white;
+    border:1px solid;
+    border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+    border-radius: 3px;
+
+}
+
+    #passwordSubmit {
+    width: 60%;
+    background-color: #80CBC4;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+#passwordSubmit :hover {
+    background-color:#00ff90;
+}
+
+.changePassword:before{
+    content:'';
+    position:absolute;
+    top:-8px;
+    right:-8px;
+    bottom:-8px;
+    left:-8px;
+    z-index:-1;
+    background:rgba(0,0,0,0.08);
+    border-radius:4px;
+    border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+    margin-top:15px;
+
+}
+.changePassword {
+    position:relative;
+    margin:0 auto;
+    padding:20px 20px 20px;
+    width:310px;
+}
+
+h1
+{
+ font-family: 'Verdana', 'Geneva', 'sans-serif';
+ font-weight:200;
+ color:black;   
+ margin-top:40px;
+ margin-left:-5px;
+}

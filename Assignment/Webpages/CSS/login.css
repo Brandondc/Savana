@@ -1,0 +1,274 @@
+﻿/*Page Stuff*/
+
+body {font-family: 'Open Sans', sans-serif;
+      font-size: 16px; 
+      font-weight: 300; 
+      color: #555; 
+      margin: 0; 
+      padding: 0;
+      background-color:white;
+}
+
+#page {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}                                      
+
+/*Header*/
+
+#header1 {
+    background-color: #455A64;
+    padding: 40px;
+}
+#header2 {
+    background-color:#80CBC4;
+    padding:20px 100px;
+}
+#header3 {
+    background-color: #455A64;
+    padding: 75px 50px;
+    margin-top:0px;
+}
+
+/*Navigation*/
+
+nav {
+    position: absolute;
+    top: 20px; left: 0px;
+    padding: 15px 0 0 0;
+    width: 100%;
+    background-color:#80CBC4;
+}
+
+nav ul {list-style: none; margin: 0; padding: 0px;}
+
+nav::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+nav ul li a{
+    display:inline-block;
+    color:black;
+    padding: 20px 10px;
+    text-decoration:none;
+    width:125px;
+    position: relative;
+}
+
+
+nav ul li a.savana:hover {
+    background-color:none;
+}
+nav ul li a.normal:hover {
+    background-color:#26A69A;
+}
+
+nav > ul > li {float:left;
+    }
+
+nav > ul > li > a {
+            width: auto;
+            padding: 10px 20px 10px 20px;
+        }
+
+nav li {
+    border-right: 2px solid black;
+}
+
+/*Subscribe email*/
+
+input[type=text].Subscribe{
+    width :50%;
+    height:20px;
+    font-size:20px;
+    margin-left: 350px;
+    background-color:#80CBC4;
+    border:0;
+    border-style:solid;
+    border-bottom:solid;
+    border-bottom-color:black;
+    color:black;
+}
+*::-webkit-input-placeholder{
+    color:black !important;
+}
+
+#Subscribe{
+    font-size:20px;
+    background-color:#80CBC4;
+    border:0;
+    border-style:solid;
+    color:black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#Subscribe:hover{
+    color:white;
+}
+/*Bottom Bar*/
+#Logo {
+    margin-left:10px;
+    margin-top:-60px;
+}
+
+#Copyrights {
+    color:white;
+    margin-top:-27px;
+    margin-left:-12px;
+}
+/*Facebook and instagram*/
+#FacebookAndInstagram {
+    margin-left:25px;
+}
+
+li.bottom {
+    display:inline;
+    margin-left:15px;
+}
+/*Back to top button*/
+a.back-to-top {
+    display:none;
+    width:60px;
+    height:60px;
+    position:fixed;
+    bottom:40px;
+    right:40px;
+    background: green url(../Images/EF21B293F14B42D2B8F3D752BBE67C78.png) no-repeat center 43%;
+    text-indent: -9999px;
+    border-radius: 30px;
+}
+
+a:hover.back-to-top {
+    background-color: #000;
+}
+/*Navigation bar*/
+
+
+/*Login */
+
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200);
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 200;
+}
+.container{
+    margin:230px auto;
+    width:640px;
+    padding: 20px
+}
+.login:before{
+    content:'';
+    position:absolute;
+    top:-8px;
+    right:-8px;
+    bottom:-8px;
+    left:-8px;
+    z-index:-1;
+    background:rgba(0,0,0,0.08);
+    border-radius:4px;
+}
+.login h1{
+    margin:-20px -20px 21px;
+    line-height:45px;
+    font-size:22px;
+    font-weight:lighter;
+    color:white;
+    text-align:center;
+    background:#80CBC4;
+    border-radius:3px 3px 0 0;
+}
+.login p{
+    margin:15px 0 0;
+}
+.login p:first-child{
+margin-top:0;
+}
+.login input[type=text], .login input[type=password]{
+    width:275px;
+}
+
+.login p.Remember_me label{
+    font-size:14px;
+    color:black;
+    cursor:pointer;
+}
+.login p.Remember_me input{
+    position:relative;
+    bottom:1px;
+    margin-right:4px;
+    vertical-align:middle;
+}
+.login{
+    position:relative;
+    margin:0 auto;
+    padding:20px 20px 20px;
+    width:310px;
+
+}
+.login p.submit{
+    text-align:center;
+}
+
+.login-register{
+    margin:20px 0;
+    font-size:14px;
+    font-weight:600;
+    color:white;
+    text-align:center;
+
+}
+
+:-moz-placeholder{
+    color:#c9c9c9!important;
+    font-size:13px;
+}
+::-webkit-input-placeholder{
+    color:#ccc;
+    font-size:13px;
+}
+input[type=text], input[type=password]{
+    margin:5px;
+    padding:0px 10px;
+    width:200px;
+    height:34px;
+    color:#404040;
+    background:white;
+    border:1px solid;
+    border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+    border-radius: 3px;
+
+}
+input[type=checkbox],
+input[type=radio]{
+    border:0px solid #c0c0c0;
+    margin:0 0.1em 0 0;
+    padding:0;
+    font-size:15px;
+    line-height:1em;
+    width:1.25em;
+    height:1.25em;
+    background:#fff;
+}
+
+input[type=submit]{
+    padding:0px 18px;
+    width:95%;
+    height:37px;
+    font-size:14px;
+    font-weight:lighter;
+    color:white;
+    background:#80CBC4;
+    border:0;
+    border-color:#b4ccce #b3c0c8 #9eb9c2;
+    border-radius:2px;
+    outline:0;
+
+input[type=submit]:hover
+{
+    background-color: #45a049;
+}
